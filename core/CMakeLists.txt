@@ -14,7 +14,7 @@ if(build)
         src/matrix.cpp
 	src/row.cpp
         src/eigen_matrix.cpp
-#        src/conversions.cpp
+        src/conversions.cpp
 	src/math.cpp
 	src/stats.cpp
 	#src/create.cpp
@@ -22,9 +22,9 @@ if(build)
 
     set(incs 
         include/pcl2/cloud.h
-#        include/pcl2/conversions.h
+        include/pcl2/conversions.h
 	include/pcl2/core.h
-	include/pcl2/create.h
+	#include/pcl2/create.h
         include/pcl2/eigen_matrix.h
         include/pcl2/eigen_matrix_impl.h
         include/pcl2/exception.h
